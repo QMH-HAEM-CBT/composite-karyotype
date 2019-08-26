@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 ################################################################################
-# This script takes the CSV output from MetaSystem and convert the karyotypes
+# This script takes the CSV output from karyotyper and convert the karyotypes
 # from individual metaphases to a composite karyotype in the format of ISCN.
 #
 # Author: Clinical Bioinformatics Team, Cytogenetics and Genomics Laboratory,
