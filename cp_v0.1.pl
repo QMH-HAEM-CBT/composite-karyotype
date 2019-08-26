@@ -27,7 +27,7 @@ while(<IN>){
    $fields[0] =~ s/^"//;   # Remove the leading quotation mark
    $fields[$#fields] =~ s/"$//;  # Remove the trailing quotation mark
 
-   print (join "\t", @fields);
+   print ($fields[4]);
    print "\n";
 }
 close IN;
