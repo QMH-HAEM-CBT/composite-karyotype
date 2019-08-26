@@ -16,7 +16,7 @@
 use strict;
 use warnings;
 
-$/ = "\r\n";   # Change the default new line character from LF to CRLF to take input from MetaSystem
+$/ = "\r\n";   # Change the default new line character from LF to CRLF to take input from karyotyper
 
 open IN, $ARGV[0], or die $!;
 <IN>;
